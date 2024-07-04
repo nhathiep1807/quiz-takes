@@ -216,7 +216,7 @@ export default function QuizPage() {
                   Previous
                 </button>
               )}
-              {currentQuestion === questions.length - 1 && (
+              {currentQuestion === questions?.length - 1 && (
                 <button
                   className="text-sm px-2 py-1 rounded-md w-[80px] bg-blue-400 text-white"
                   onClick={() => setOpenConfirmSubmit(true)}
